@@ -11,3 +11,10 @@ btn1.addEventListener('click', () => {
 function alertFunction() {
     alert("YAAAAAY You done it :D");
 }
+// alt methods:
+
+//btn.onclick = alertFunction;
+
+//or
+
+//btn.addEventListener('click', alertFunction);
