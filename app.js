@@ -11,6 +11,7 @@ btn1.addEventListener('click', () => {
 function alertFunction() {
     alert("YAAAAAY You done it :D");
 }
+
 // alt methods:
 
 //btn.onclick = alertFunction;
@@ -18,3 +19,8 @@ function alertFunction() {
 //or
 
 //btn.addEventListener('click', alertFunction);
+
+//doesnt work v
+//btn.addEventListener('click', function (e) {
+ //   e.target.style.background = 'blue';
+//});
